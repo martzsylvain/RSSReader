@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- * <ul>
+* Android Tutorial, An <strong>ST Informatique Services</strong>'s project.</br>
+* Produced by <strong>Dr. Mathias SEGUY</strong> with the smart contribution of <strong>Julien PAPUT</strong>.</br>
+* Delivered by <strong>http://android2ee.com/</strong></br>
+* Belongs to <strong>http://stinfoservices.net/</strong></br>
+* ****************************************************************************************************************</br>
+* This code is free for any usage but can't be distribute.</br>
+* The distribution is reserved to the site <strong>http://android2ee.com</strong>.</br>
+* The intelectual property belongs to the company <strong>ST Informatique Services</strong>.</br>
+* <em>http://stinfoservices.net/</em></br>
+* </br>
+* For any information (Advice, Expertise, J2EE or Android Training, Rates, Business):</br>
+* <em>android@stinfoservices.net</em></br>
+* *****************************************************************************************************************</br>
+* Ce code est libre de toute utilisation mais n'est pas distribuable.</br>
+* Sa distribution est reservée au site <strong>http://android2ee.com</strong>.</br>
+* Sa propriété intellectuelle appartient à la société <strong>ST Informatique Services</strong>.</br>
+* <em>http://stinfoservices.net/</em></br>
+* </br>
+* Pour tous renseignements (Conseil, Expertise, Formations J2EE ou Android, Prestations, Forfaits):</br>
+* <em>android@stinfoservices.net</em></br>
+* *****************************************************************************************************************</br>
+* Les meilleurs des Ingénieurs Java-J2EE nous rejoignent pour participer avec nous à la grande aventure</br>
+* de l’informatique des prochaines décennies.</br>
+* N'hésitez pas à nous contacter.</br>
+* *****************************************************************************************************************</br>
+* net.stinfoservices.android.tuto</br>
+* 25 mars 2011</br> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	   	android:layout_gravity="center_vertical"
+	   	android:paddingLeft="10px"
+	    android:layout_weight="1"
+	    > 
+	    <TextView android:id="@+id/titre"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         android:textSize="16px"
+	         android:textStyle="bold"
+	         />
+	    <TextView android:id="@+id/description"
+	         android:layout_width="fill_parent"
+	         android:layout_height="fill_parent"
+	         />
+    </LinearLayout>
+</LinearLayout>
